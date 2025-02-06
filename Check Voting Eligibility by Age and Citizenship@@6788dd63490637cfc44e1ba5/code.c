@@ -6,7 +6,7 @@ int main() {
         printf("Eligible");
 
     }else{
-        printf("Mot Eligible");
+        printf("not Eligible");
     }
     return 0;
 }

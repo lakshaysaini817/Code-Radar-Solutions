@@ -2,14 +2,6 @@
 int main() {
     int a;
     scanf("%d",&a);
-    #include <stdio.h>
-
-int main() {
-    int n, i, isPrime = 1;
-    
-    printf("Enter a number: ");
-    scanf("%d", &n);
-
     if (n <= 1) {
         isPrime = 0;
     } else {

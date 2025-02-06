@@ -2,7 +2,7 @@
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
-    if(a>=10||a<=-10){
+    if(a>=b){
         printf("%d",a);
     }else{
         printf("%d",b);

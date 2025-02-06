@@ -3,6 +3,6 @@ int main() {
     intba,b;
     scanf("%d",&a);
     b=~a;
-    printf("%d",&b)
+    printf("%d",&b);
     return 0;
 }

@@ -1,8 +1,6 @@
 #include <stdio.h>
 int main() {
      int day;
-    
-    printf("Enter a number (1-7): ");
     scanf("%d", &day);
 
     switch (day) {
@@ -13,7 +11,7 @@ int main() {
         case 5: printf("Thursday\n"); break;
         case 6: printf("Friday\n"); break;
         case 7: printf("Saturday\n"); break;
-        default: printf("Invalid input! Enter a number between 1 and 7.\n");
+        default: printf("Invalid");
     }
     return 0;
 }

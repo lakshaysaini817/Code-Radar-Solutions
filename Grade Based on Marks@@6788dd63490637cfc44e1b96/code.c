@@ -10,6 +10,8 @@ int main() {
         printf("C");
     }else if(a>=60){
         printf("D");
+    }else {
+        printf("F");
     }
      return 0;
 }

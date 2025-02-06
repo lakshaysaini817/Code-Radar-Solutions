@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    inta,b;
+    intba,b;
     scanf("%d",&a);
     b=~a;
     printf("%d",&b)

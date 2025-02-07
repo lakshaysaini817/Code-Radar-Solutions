@@ -1,33 +1,23 @@
 #include <stdio.h>
 
 int main() {
+    double a,b,c;
     char op;
-    double num1, num2, result;
-    scanf(" %c", &op); 
-    scanf("%lf %lf", &num1, &num2);
-    switch (op) {
-        case '+':
-            result = num1 + num2;
-            printf("Result: %.2lf\n", result);
-            break;
-        case '-':
-            result = num1 - num2;
-            printf("Result: %.2lf\n", result);
-            break;
-        case '*':
-            result = num1 * num2;
-            printf("Result: %.2lf\n", result);
-            break;
-        case '/':
-            if (num2 != 0) {
-                result = num1 / num2;
-                printf("Result: %.2lf\n", result);
-            } else {
-                printf("error");
-            }
-            break;
-        default:
-            printf("error");
+    scanf("%d %d %c",&a,&b,&op);
+    if(op=='+'){
+        c=a+b;
+        printf("%d",c);
+    }if(op=='-'){
+        c=a-b;
+        printf("%d",c);
+    }if(op=='*'){
+        c=a*b;
+        printf("%d",c);
+    }if(op=='/'){
+        c=a/b;
+        printf("%d",c);
+    }else{
+        printf("error");
     }
 
     return 0;

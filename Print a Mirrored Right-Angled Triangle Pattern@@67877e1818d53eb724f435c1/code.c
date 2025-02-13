@@ -5,7 +5,7 @@ int main(){
     for(i=1;i<=N;i++){
         for(j=2;j<=N-1;j++){
             printf(" ");
-        }for(k=1;k<=N;k++){
+        }for(k=1;k<=i;k++){
             printf("*");
         }printf("*");
     }

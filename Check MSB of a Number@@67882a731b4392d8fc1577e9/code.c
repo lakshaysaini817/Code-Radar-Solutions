@@ -5,6 +5,6 @@ int main() {
     b=a<<(sizeof(int)*8-1)& 1;
     if(b){
         printf("Set");
-    }else(printf("Not Set");)
+    }else{printf("Not Set");}
     return 0;
 }

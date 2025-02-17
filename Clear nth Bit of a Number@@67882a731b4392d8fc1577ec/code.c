@@ -1,16 +1,8 @@
-#include <stdio.h>
-
-int clearNthBit(int num, int n) {
-    return num & ~(1 << n);
-}
-
-int main() {
-    int num, n;
-    scanf("%d", &num);
-    scanf("%d", &n);
-    
-    int result = clearNthBit(num, n);
-    printf("%d", result);
-    
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d %d",&a,&b);
+    c=a&~(1<<b);
+    printf("%d",C);
     return 0;
 }

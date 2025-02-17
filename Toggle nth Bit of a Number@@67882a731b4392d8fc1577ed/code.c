@@ -1,16 +1,7 @@
-#include <stdio.h>
-
-int toggleNthBit(int num, int n) {
-    return num ^ (1 << n);
-}
-
-int main() {
-    int num, n;
-    scanf("%d", &num);
-    scanf("%d", &n);
-    
-    int result = toggleNthBit(num, n);
-    printf("%d", result);
-    
-    return 0;
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d %d",&a,&b);
+    c=a^(1<<b);
+    printf("%d",c);
 }
